@@ -2,13 +2,13 @@
 class App {
 	// inner
 	/* 块级 */
-	// 123
+	// class
 	inClass() {
 		// buried-0
-		console.log(213);
+		console.log("inClass");
 	}
 }
-// 外边的猴嘴
+// 外边的注释
 
 function fn() { // fn右边
 	// buried-1
@@ -19,19 +19,19 @@ function fn() { // fn右边
 		console.log(2);
 		// buried-4
 	}
-	// 猴嘴
+	// 调用inFn前
 	inFn();
 
 	function testFn() {
 		const a = 123;
 		// buried-7
-		function test() {
+		function testFn2() {
 			console.log(234);
 			// buried-5
 			const arr = () => {
 				// buried-6
-				function haha() {
-					// aaa
+				function testFn3() {
+					// test
 				}
 			};
 		}
@@ -40,6 +40,6 @@ function fn() { // fn右边
 fn();
 
 const a = () => {
-	// buri
+	// buri-error
 };
 a();

@@ -1,0 +1,33 @@
+{
+  "name": "babel-plugin-autoBuriedPoint",
+  "version": "1.0.1",
+  "description": "通过代码注释与excel表实现自动埋点的babel插件",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config test/webpack.config.js"
+  },
+  "repository": {
+    "type": "git"
+    
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "babel",
+    "babel-plugin",
+    "excel",
+    "埋点"
+  ],
+  "author": "heyixuan",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
+    "@babel/traverse": "^7.18.0",
+    "babel-loader": "^8.2.5",
+    "node-xlsx": "^0.21.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}

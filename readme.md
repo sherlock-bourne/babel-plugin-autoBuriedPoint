@@ -4,10 +4,10 @@
 ## 安装
 
 ```javascript
-npm i babel-plugin-autoBuriedPoin
+npm i babel-plugin-autoburiedpoint
 ```
 ```javascript
-yarn add babel-plugin-autoBuriedPoin
+yarn add babel-plugin-autoburiedpoint
 ```
 
 ### 使用
